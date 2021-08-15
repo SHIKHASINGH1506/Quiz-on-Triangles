@@ -9,79 +9,88 @@
 <body>
     <h1>Take a Quiz</h1>
     <div class="form-container">
-        <form action="/app.js" method="post">
+        <form class="quizForm">
             <p>1. If three angles of a triangle are 110<sup>0</sup>, 40<sup>0</sup> and 30<sup>0</sup>. Is this an obtuse triangle?</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="Yes">
-            <label for="obtuse-angle">Yes</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="No">
-            <label for="not-obtuse-angle">No</label>
+            <input required type="radio" name="one" value="Yes">
+            <label for="one">Yes</label>
+            <input required type="radio" name="one" id="one" value="No">
+            <label for="one">No</label>
 
             <p>2. If three angles of a triangle are 90<sup>0</sup>, 50<sup>0</sup> and 45<sup>0</sup>. Is this a right angle triangle?</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="Yes">
+            <input required type="radio" name="two" value="Yes">
             <label for="obtuse-angle">Yes</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="No">
+            <input required type="radio" name="two" id="not-obtuse-angle" value="No">
             <label for="not-obtuse-angle">No</label>
 
             <p>3. If three angles of a triangle are 30<sup>0</sup>, 40<sup>0</sup>, 110<sup>0</sup>. Is this an acute triangle?</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="Yes">
+            <input required type="radio" name="three" value="Yes">
             <label for="obtuse-angle">Yes</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="No">
+            <input required type="radio" name="three" id="not-obtuse-angle" value="No">
             <label for="not-obtuse-angle">No</label>
 
             <p>4. Two angles of a triangle are 75<sup>0</sup> and 40<sup>0</sup>, what will be the third angle?</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="65">
+            <input required type="radio" name="four" value="65">
             <label for="obtuse-angle">65</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="60">
+            <input required type="radio" name="four" id="not-obtuse-angle" value="60">
             <label for="not-obtuse-angle">60</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="75">
+            <input required type="radio" name="four" id="not-obtuse-angle" value="75">
             <label for="not-obtuse-angle">75</label>
 
             <p>5. In an equilateral triangle, what is the sum of any two of its angles?</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="120">
+            <input required type="radio" name="five" value="120">
             <label for="obtuse-angle">120</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="90">
+            <input required type="radio" name="five" id="not-obtuse-angle" value="90">
             <label for="not-obtuse-angle">90</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="60">
+            <input required type="radio" name="five" id="not-obtuse-angle" value="60">
             <label for="not-obtuse-angle">60</label>
 
             <p>6. If an Isosceles triangle has two angles that are 76°. Then what is the measure of third vertex angle?</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="38">
+            <input required type="radio" name="six" value="38">
             <label for="obtuse-angle">38</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="28">
+            <input required type="radio" name="six" id="not-obtuse-angle" value="28">
             <label for="not-obtuse-angle">28</label>
 
             <p>7. What is the perimeter of an equilateral triangle if one of its sides is 7cm long?</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="14">
+            <input required type="radio" name="seven" value="14">
             <label for="obtuse-angle">14cm</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="16">
+            <input required type="radio" name="seven" id="not-obtuse-angle" value="16">
             <label for="not-obtuse-angle">16cm</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="21">
+            <input required type="radio" name="seven" id="not-obtuse-angle" value="21">
             <label for="not-obtuse-angle">21cm</label>
 
             <p>8. If half of an equilateral triangle's base is 100cm long, what is the triangle's perimeter?</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="300">
+            <input required type="radio" name="eight" value="300">
             <label for="obtuse-angle">300cm</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="400">
+            <input required type="radio" name="eight" id="not-obtuse-angle" value="400">
             <label for="not-obtuse-angle">400cm</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="600">
+            <input required type="radio" name="eight" id="not-obtuse-angle" value="600">
             <label for="not-obtuse-angle">600cm</label>
 
             <p>9. The Pythagorean Theorem ONLY works on which triangle?</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="Obtuse">
+            <input required type="radio" name="nine" value="Obtuse">
             <label for="obtuse-angle">Obtuse</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="Isosceles">
-            <label for="not-obtuse-angle">isosceles</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="Right">
+            <input required type="radio" name="nine" id="not-obtuse-angle" value="Isosceles">
+            <label for="not-obtuse-angle">Isosceles</label>
+            <input required type="radio" name="nine" id="not-obtuse-angle" value="Right">
             <label for="not-obtuse-angle">Right</label>
 
             <p>10. The hypotenuse is the LONGEST side of the right triangle.</p>
-            <input type="radio" name="angle" id="obtuse-angle" value="Yes">
+            <input required type="radio" name="ten" value="Yes">
             <label for="obtuse-angle">Yes</label>
-            <input type="radio" name="angle" id="not-obtuse-angle" value="No">
+            <input required type="radio" name="ten" id="not-obtuse-angle" value="No">
             <label for="not-obtuse-angle">No</label>
             <br >
             <button class="button" id="submitQuiz">Submit</button>
         </form>
+        <h2>For each right answer you'll bag 1 point.</h2>
+        <h3>Your score will be shown here! </h3>
+        <div class="outputHere">
+            <label class="label">Score:</label>
+            <div style="display:inline;" class="score"></div>
+        </div>
+
+        
+        <!-- <div id="score"></div> -->
     </div>
 </body>
 <script src="quiz.js"></script>
