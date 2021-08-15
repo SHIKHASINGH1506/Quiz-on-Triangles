@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Hypotenuse</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-brand">
+            Shikha
+        </div>
+        <ul class="list-nobullets nav-pills">
+            <li class="list-item-inline">
+                <a class="link active" href="index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="quiz.html">Take a Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">Calculate Area</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="main-container">
+        <div class="heading">Enter the lengths of sides of right angle triangle</div>
+        <img class="triangle-image" src="./assets/image/triangle-image.png" alt="triangle">
+        <form id="check-hypo" class="hypo-form">
+            <label class="label">a = 
+            <input type="number" required class="sides">
+            </label>  
+            <label class="label">b = 
+                <input type="number" required class="sides">
+            </label>  
+            <button class="button" id="submit-Btn">submit</button>   
+        </form>
+        <div class="outputHere">
+            <label class="label">C = </label>
+            <div style="display:inline;" class="hypShowHere"><span style="font-size: 1.8rem;">√</span><span style="border-top:2px solid black; padding-top:0.1rem;">a<sup>2</sup>+b<sup>2</sup></span></div>
+        </div>     
+    </div>
+    <script src="hypotenuse.js"></script>
+</body>
+</html>

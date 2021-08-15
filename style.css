@@ -1,0 +1,59 @@
+/** nav  check-hypotenus**/
+.navigation{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: blue;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: var(--brnad-font-size);
+}
+.navigation .link{
+    color: blue;
+}
+.nav-pills{
+    text-align: center;
+    padding-left: 0px;
+}
+.active{
+    font-weight: bold;
+}
+.list-nobullets{
+    list-style-type: none;
+}
+.list-item-inline{
+    display: inline;
+    margin-right: 1rem;
+    font-size: var(--font-size);
+}
+.main-container{
+    height: 70vh;
+    width: 50vw;
+    margin:auto;
+    margin-top: 3rem;
+
+}
+.hypo-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.triangle-image{
+    max-width: 250px;
+    margin-left: 5rem;
+}
+.sides{
+    margin: 1rem;
+    margin-right: 5rem;
+    height: 8vh;
+    width: 7vw;
+    padding-left: 2rem;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+}
+.label{
+    font-weight: bold;
+    display: inline-block;
+}
