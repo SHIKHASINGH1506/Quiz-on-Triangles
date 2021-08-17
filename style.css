@@ -1,16 +1,35 @@
+
+:root{
+    --primary-color: #A78BFA;
+    --dark-grey:#6B7280;
+    --light-grey:#F3F4F6;
+    --font-size: 1.2rem;
+    --font-size2: 2rem;
+    --brnad-font-size: 1.3rem;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+.body-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 /** nav  check-hypotenus**/
 .navigation{
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: var(--primary-color);
-    color: blue;
-    border-bottom-left-radius: 1rem;
+    color: var(--light-grey);
 }
 .navigation .nav-brand{
     font-weight: bold;
     font-size: var(--brnad-font-size);
 }
 .navigation .link{
-    color: blue;
+    color: var(--light-grey);
 }
 .nav-pills{
     text-align: center;
@@ -27,12 +46,23 @@
     margin-right: 1rem;
     font-size: var(--font-size);
 }
-.main-container{
+.link{
+    box-sizing: border-box;
+    padding: 0.5rem 0.8rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+.section{
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin: 2rem 1rem;
+}
+/* .main-container{
     height: 70vh;
     width: 50vw;
     margin:auto;
     margin-top: 3rem;
-
 }
 .hypo-form{
     display: flex;
@@ -42,18 +72,47 @@
 .triangle-image{
     max-width: 250px;
     margin-left: 5rem;
-}
-.sides{
+}*/
+.angles{
     margin: 1rem;
     margin-right: 5rem;
-    height: 8vh;
-    width: 7vw;
+    height: 5vh;
     padding-left: 2rem;
-    background-color: blue;
-    color: white;
-    font-size: larger;
+    color: black;
+    font-size: medium;
+    border: 2px solid var(--primary-color);
 }
 .label{
     font-weight: bold;
     display: inline-block;
+}
+.button{
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: var(--light-grey);
+    border: none;
+}
+
+/*Footer*/
+.footer{
+    background-color: var(--primary-color);
+    padding: 0.5rem 1rem;
+    color: white;
+    text-align: center;
+}
+.footer-heading{
+    font-weight: bold;
+    font-size: 1.44rem;
+    padding-bottom: 0.5rem;
+}
+.contact-div{
+    display: flex;
+    justify-content: space-around;
+    width:800px;
+    max-width: 25em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.link-conatct{
+    width:1.5em;
 }
