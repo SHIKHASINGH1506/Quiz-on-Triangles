@@ -1,44 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Calculate Area</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav class="navigation">
         <div class="nav-brand">
-            Shikha
+            Triangle Fun
         </div>
         <ul class="list-nobullets nav-pills">
             <li class="list-item-inline">
-                <a class="link active" href="index.html">Home</a>
+                <a class="link active" href="index.html">Is-triangle?</a>
             </li>
             <li class="list-item-inline">
                 <a class="link" href="quiz.html">Take a Quiz</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="index.html">Angle of triangles</a>
+                <a class="link" href="chcek-hypotenuse.html">Check Hypotenuse</a>
             </li>
         </ul>
     </nav>
-    <h1>Calculate Area</h1>
-    <h3>Area will be calculated using formula <strong>1/2 * base * height</strong></h3>
-    <form id="cal-area" class="form">
-        <label class="label">base = 
-        <input type="number" required class="sides">
-        </label>  
-        <label class="label">height = 
-            <input type="number" required class="sides">
-        </label>  
-        <button class="button" id="submit-Btn">Calculate</button>   
-    </form>
-    <div class="outputHere">
-        <label class="label">Area = </label>
-        <div style="display:inline;" class="areaShowHere"><span style="border-top:2px solid black; padding-top:0.1rem;"></div>
-    </div> 
-    <script src="area.js"></script> 
+    <div class="body-container">
+        <section class="section">
+            <h1>Calculate Area</h1>
+            <h3>Area will be calculated using formula <strong>1/2 * base * height</strong></h3>
+            <img src="./assets/image/base-height-triangle.png" alt="triangle">
+            <form id="cal-area" class="form">
+                <label class="label">base =
+                    <input type="number" required class="angles">
+                </label> <br>
+                <label class="label">height =
+                    <input type="number" required class="angles">
+                </label> <br>
+                <button class="button" id="submit-Btn">Calculate</button>
+            </form>
+            <div class="outputHere">
+                <label class="label">Area = </label>
+                <div style="display:inline;" class="areaShowHere"><span
+                        style="border-top:2px solid black; padding-top:0.1rem;"></div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-heading">Contact Me</div>
+            <div class="contact-div">
+                    <a class="link" href="mailto:shikhakumarisingh9715@gmail.com">
+                        <img class ="link-conatct" src="assets/image/mail.svg">
+                    </a>
+                             
+                    <a class="link" href="https://www.linkedin.com/in/shikha-kumari-6a6b18169/">
+                        <img class ="link-conatct" src="assets/image/linkedin.svg">
+                    </a>               
+               
+                    <a class="link" href="https://github.com/SHIKHASINGH1506">
+                        <img class ="link-conatct" src="assets/image/github.svg">
+                    </a>              
+               
+                    <a class="link" href="https://twitter.com/ShikhaK49176476">
+                        <img class ="link-conatct" src="assets/image/twitter.svg">
+                    </a>               
+               
+                    <a class="link" href="https://www.instagram.com/shikha.png/">
+                        <img class ="link-conatct" src="assets/image/instagram.svg">
+                    </a>              
+           </div>
+    </footer>
+    <script src="area.js"></script>
 </body>
+
 </html>

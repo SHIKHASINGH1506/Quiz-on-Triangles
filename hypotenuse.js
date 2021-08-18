@@ -1,5 +1,5 @@
 const hypotenuseForm = document.querySelector("#check-hypo");
-const sides = document.querySelectorAll(".sides");
+const sides = document.querySelectorAll(".angles");
 const submitBtn = document.querySelector("#submit-Btn");
 const outputArea = document.querySelector(".hypShowHere");
 

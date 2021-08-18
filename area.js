@@ -1,5 +1,5 @@
 const calArea = document.querySelector("#cal-area");
-const sides = document.querySelectorAll(".sides");
+const sides = document.querySelectorAll(".angles");
 const outputArea = document.querySelector(".areaShowHere");
 
 calArea.addEventListener('submit', calculateArea);

@@ -1,46 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Check Hypotenuse</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <nav class="navigation">
         <div class="nav-brand">
-            Shikha
+            Triangle Fun
         </div>
         <ul class="list-nobullets nav-pills">
             <li class="list-item-inline">
-                <a class="link active" href="index.html">Home</a>
+                <a class="link active" href="index.html">Is-triangle?</a>
             </li>
             <li class="list-item-inline">
                 <a class="link" href="quiz.html">Take a Quiz</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="blogs.html">Calculate Area</a>
+                <a class="link" href="area.html">Calculate Area</a>
             </li>
         </ul>
     </nav>
-    <div class="main-container">
-        <div class="heading">Enter the lengths of sides of right angle triangle</div>
-        <img class="triangle-image" src="./assets/image/triangle-image.png" alt="triangle">
-        <form id="check-hypo" class="hypo-form">
-            <label class="label">a = 
-            <input type="number" required class="sides">
-            </label>  
-            <label class="label">b = 
-                <input type="number" required class="sides">
-            </label>  
-            <button class="button" id="submit-Btn">submit</button>   
-        </form>
-        <div class="outputHere">
-            <label class="label">C = </label>
-            <div style="display:inline;" class="hypShowHere"><span style="font-size: 1.8rem;">√</span><span style="border-top:2px solid black; padding-top:0.1rem;">a<sup>2</sup>+b<sup>2</sup></span></div>
-        </div>     
+    <div class="body-container">
+        <section class="section">
+            <div class="heading">Enter the lengths of sides of right angle triangle</div>
+            <img class="triangle-image" src="./assets/image/triangle-image.png" alt="triangle">
+            <form id="check-hypo" class="hypo-form">
+                <label class="label">a =
+                    <input type="number" required class="angles">
+                </label>
+                <label class="label">b =
+                    <input type="number" required class="angles">
+                </label> <br>
+                <button class="button" id="submit-Btn">submit</button>
+            </form>
+            <div class="outputHere">
+                <label class="label">C = </label>
+                <div style="display:inline;" class="hypShowHere"><span style="font-size: 1.8rem;">√</span><span
+                        style="border-top:2px solid black; padding-top:0.1rem;">a<sup>2</sup>+b<sup>2</sup></span></div>
+            </div>
+        </section>
     </div>
+    <footer class="footer">
+        <div class="footer-heading">Contact Me</div>
+            <div class="contact-div">
+                    <a class="link" href="mailto:shikhakumarisingh9715@gmail.com">
+                        <img class ="link-conatct" src="assets/image/mail.svg">
+                    </a>
+                             
+                    <a class="link" href="https://www.linkedin.com/in/shikha-kumari-6a6b18169/">
+                        <img class ="link-conatct" src="assets/image/linkedin.svg">
+                    </a>               
+               
+                    <a class="link" href="https://github.com/SHIKHASINGH1506">
+                        <img class ="link-conatct" src="assets/image/github.svg">
+                    </a>              
+               
+                    <a class="link" href="https://twitter.com/ShikhaK49176476">
+                        <img class ="link-conatct" src="assets/image/twitter.svg">
+                    </a>               
+               
+                    <a class="link" href="https://www.instagram.com/shikha.png/">
+                        <img class ="link-conatct" src="assets/image/instagram.svg">
+                    </a>              
+           </div>
+    </footer>
     <script src="hypotenuse.js"></script>
 </body>
+
 </html>
