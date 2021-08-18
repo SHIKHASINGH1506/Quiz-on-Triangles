@@ -5,21 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Triangle Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav class="navigation">
+        <div class="nav-brand">
+            Triangle Fun
+        </div>
+        <ul class="list-nobullets nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="quiz.html">Take a Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="area.html">Caculate Area</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="chcek-hypotenuse.html">Check Hypotenuse</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="body-container">
+        <section class="section">
+            <h1>Welcome to Fun with Triangles</h1>
+            <p>Enter the angles in below input boxes and we will tell you if those angles make a Triangle</p>
+            <label class="label" for="angle-one">First Angle: </label>
+            <input type="number" class="angles"> <br>
+            <label class="label" for="angle-two">Second Angle: </label>
+            <input type="number" class="angles"> <br>
+            <label class="label" for="angle-three">Third Angle: </label>
+            <input type="number" class="angles"> <br>
+            <button class="button" id="check-sum-of-angle">Check</button>
+            <div id="output-area"></div>
+        </section>
+    </div>
 
-    <p><a href="./quiz.html">Take a Quiz</a></p>
-    <p><a href="./chcek-hypotenuse.html">Check Hypotenuse</a></p>
-    <h1>Welcome to Fun with Triangles</h1>
-    <p>Enter the angles in below input boxes and we will tell you if those angles make a Triangle</p>
-    <label for="angle-one">First Angle: </label>
-    <input type="number" class="angles">
-    <label for="angle-two">Second Angle: </label>
-    <input type="number" class="angles">
-    <label for="angle-three">Third Angle: </label>
-    <input type="number" class="angles">
-    <button id="check-sum-of-angle">Check</button>
-    <div id="output-area"></div>
+    <footer class="footer">
+        <div class="footer-heading">Contact Me</div>
+            <div class="contact-div">
+                    <a class="link" href="mailto:shikhakumarisingh9715@gmail.com">
+                        <img class ="link-conatct" src="assets/image/mail.svg">
+                    </a>
+                             
+                    <a class="link" href="https://www.linkedin.com/in/shikha-kumari-6a6b18169/">
+                        <img class ="link-conatct" src="assets/image/linkedin.svg">
+                    </a>               
+               
+                    <a class="link" href="https://github.com/SHIKHASINGH1506">
+                        <img class ="link-conatct" src="assets/image/github.svg">
+                    </a>              
+               
+                    <a class="link" href="https://twitter.com/ShikhaK49176476">
+                        <img class ="link-conatct" src="assets/image/twitter.svg">
+                    </a>               
+               
+                    <a class="link" href="https://www.instagram.com/shikha.png/">
+                        <img class ="link-conatct" src="assets/image/instagram.svg">
+                    </a>              
+           </div>
+    </footer>
 </body>
 <script src="app.js"></script>
 </html>

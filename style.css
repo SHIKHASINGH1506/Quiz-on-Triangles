@@ -91,6 +91,7 @@ body{
     background-color: var(--primary-color);
     color: var(--light-grey);
     border: none;
+    margin-top: 1rem;
 }
 
 /*Footer*/

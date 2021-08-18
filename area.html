@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <div class="nav-brand">
+            Shikha
+        </div>
+        <ul class="list-nobullets nav-pills">
+            <li class="list-item-inline">
+                <a class="link active" href="index.html">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="quiz.html">Take a Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="index.html">Angle of triangles</a>
+            </li>
+        </ul>
+    </nav>
+    <h1>Calculate Area</h1>
+    <h3>Area will be calculated using formula <strong>1/2 * base * height</strong></h3>
+    <form id="cal-area" class="form">
+        <label class="label">base = 
+        <input type="number" required class="sides">
+        </label>  
+        <label class="label">height = 
+            <input type="number" required class="sides">
+        </label>  
+        <button class="button" id="submit-Btn">Calculate</button>   
+    </form>
+    <div class="outputHere">
+        <label class="label">Area = </label>
+        <div style="display:inline;" class="areaShowHere"><span style="border-top:2px solid black; padding-top:0.1rem;"></div>
+    </div> 
+    <script src="area.js"></script> 
+</body>
+</html>

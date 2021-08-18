@@ -1,6 +1,5 @@
 const hypotenuseForm = document.querySelector("#check-hypo");
 const sides = document.querySelectorAll(".sides");
-console.log(hypotenuseForm);
 const submitBtn = document.querySelector("#submit-Btn");
 const outputArea = document.querySelector(".hypShowHere");
 
@@ -13,4 +12,4 @@ function calculateHypotenuse(e){
    let sideTwo = Number(sides[1].value)
    let sideThree = Math.sqrt((sideOne * sideOne) + ( sideTwo * sideTwo));
    outputArea.innerText = sideThree.toFixed(2);
-    }
+}
